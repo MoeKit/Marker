@@ -1,0 +1,32 @@
+{
+  "name": "marker",
+  "version": "0.0.1",
+  "description": "web element ruler",
+  "keywords": [],
+  "homepage": "",
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/MoeKit/Marker.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "licenses": "MIT",
+  "spm": {
+    "main": "index.js",
+    "dependencies": {
+      "jquery": "1.8.3",
+      "position": "1.1.0"
+    },
+    "devDependencies": {
+      "expect.js": "0.3.1",
+      "seajs-text": "1.1.0"
+    },
+    "engines": {
+      "seajs": "2.2.1",
+      "seajs-text": "1.1.0"
+    },
+    "tests": "tests/*.js"
+  }
+}

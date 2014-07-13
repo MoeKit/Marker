@@ -1,0 +1,60 @@
+.marker-box-h {
+  border:1px solid red;
+  border-top:none;
+  border-bottom:none;
+  height:10px;
+  position:absolute;
+}
+
+.marker-box-h .marker-text {
+  position:absolute;
+  left:50%;
+  margin-left:-22px;
+  top:-10px;
+  background-color:rgba(255,255,255,1);
+  font-style:normal;
+  color:#222;
+  font-family:Arial;
+}
+
+
+.marker-box-v .marker-text {
+  position:absolute;
+  top:50%;
+  margin-top:-13px;
+  left:-23px;
+  background-color:rgba(255,255,255,1);
+  font-style:normal;
+  color:#222;
+  font-family:Arial;
+  -webkit-transform:rotate(-90deg);
+}
+
+.marker-box-v {
+  border:1px solid red;
+  border-left:0;
+  border-right:0;
+  width:10px;
+  height:100px;
+  position:absolute;
+  top:-1px;
+  left:-15px
+}
+
+.marker-box-h .marker-line {
+  position:absolute;
+  display:block;
+  border-top:1px solid red;
+  width:100%;
+  left:0;
+  top:49%;
+}
+
+.marker-box-v .marker-line {
+  position:absolute;
+  display:block;
+  border-left:1px solid red;
+  height:100%;
+  top:0;
+  left:49%;
+}

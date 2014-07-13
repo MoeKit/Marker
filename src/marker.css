@@ -10,11 +10,15 @@
   position:absolute;
   left:50%;
   margin-left:-22px;
-  top:-10px;
+  top:50%;
+  margin-top:-6px;
   background-color:rgba(255,255,255,1);
   font-style:normal;
   color:#222;
   font-family:Arial;
+  font-size:12px;
+  line-height:12px;
+  padding:0 5px;
 }
 
 
@@ -28,6 +32,7 @@
   color:#222;
   font-family:Arial;
   -webkit-transform:rotate(-90deg);
+  font-size:12px;
 }
 
 .marker-box-v {
